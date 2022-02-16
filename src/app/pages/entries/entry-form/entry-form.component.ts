@@ -84,10 +84,8 @@ export class EntryFormComponent implements OnInit, AfterContentChecked {
           text: text,
           value: value
         }
-
       }
     )
-    
   } 
 //Declarações privadas
 
