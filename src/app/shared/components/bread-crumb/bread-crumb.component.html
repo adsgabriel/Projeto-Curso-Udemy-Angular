@@ -9,7 +9,7 @@
                 {{item.text}}
             </span>
 
-            <a *ngIf="!isTheLastItem(item)" routerLink="item.link">
+            <a *ngIf="!isTheLastItem(item)" [routerLink]="item.link">
                 {{item.text}}
             </a>
         </li> 
