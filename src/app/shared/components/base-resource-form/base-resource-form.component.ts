@@ -13,7 +13,7 @@ import toastr from "toastr";
 export abstract class BaseResourceFormComponent<T extends BaseResourceModel> implements OnInit, AfterContentChecked {
 
   currentAction: string;
-  resourceForm: FormGroup;
+  resourceForm: FormGroup | any;
   pageTitle: string;
   serverErrorMessages: string[] = null;
   submittingForm: boolean = false;
