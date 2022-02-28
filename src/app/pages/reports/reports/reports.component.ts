@@ -23,12 +23,12 @@ export class ReportsComponent implements OnInit {
   revenueChartData: any;
 
   chartOptions = {
-    scales:{
-      yAxes: [
-        {ticks: {
+    scales: {
+      yAxes: [{
+        ticks: {
           beginAtZero: true
-        }}
-      ]
+        }
+      }]
     }
   };
 
